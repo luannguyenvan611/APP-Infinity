@@ -1138,12 +1138,6 @@ width: 19px;
 
 /* Css footer ****************************************************************************************************************/
 
-.footer {
-  background: url(../../assets/images/footer/footer1.png);
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-}
-
 .footer .row.top {
 padding: 130px 0px 50px 0px;
 border-bottom: 1px solid #FFFFFF33
