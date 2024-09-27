@@ -1609,14 +1609,22 @@ flex-wrap: wrap;
 
 @media only screen and (max-width: 550px) {
 
+  .section-introduce .container-xl > .row {
+    flex-direction: column-reverse;
+  }
+
   .section-progress .item-progress {
     min-width: 100%;
   }
     .section-introduce .col-position .inner-img {
-        bottom: -160px;
-        width: 48.8%;
-        right: 2px;
+      bottom: -470px;
+      width: 48.8%;
+      right: 2px;
     }
+
+    .section-introduce .col-right {
+      margin-bottom: 140px;
+  }
 
 
     .section-procedure .col-top .text-title {
@@ -1764,10 +1772,14 @@ flex-wrap: wrap;
 
 @media only screen and (max-width: 325px) {
   .section-introduce .col-position .inner-img {
-      bottom: -43px;
+    bottom: -360px;
       width: 37.8%;
       right: 0px;
   }
+
+  .section-introduce .col-right {
+    margin-bottom: 20px;
+}
 
   .section-introduce {
     padding: 160px 0px 60px 0px;
