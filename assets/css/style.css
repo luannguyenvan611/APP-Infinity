@@ -2105,4 +2105,39 @@ margin-right:10px;
 }
 }
 
+@media (max-width: 768px) {
+  .hotline-bar {
+      display: none;
+  }
+
+  .zalo-container.right {
+    right: initial;
+    bottom: 15px;
+    left: 15px;
+}
+
+.zalo-container img {
+  width: 35px;
+}
+
+.zalo-container a {
+  height: 35px;
+  padding: 7px 1px 8px;
+  width: 130px;
+}
+
+.hotline-phone-ring-wrap {
+  bottom: 82px;
+  left: -18px;
+}
+.zalo-container a:first-child {
+  margin-top: 0px;
+}
+
+.zalo-container a p {
+  font-size: 14px;
+}
+}
+
+
 
